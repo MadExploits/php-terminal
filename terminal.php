@@ -84,6 +84,9 @@ GIF89;a
         li a:hover {
             color: green;
         }
+        .pwd {
+            overflow: auto;
+        }
     </style>
 </head>
 <?php
