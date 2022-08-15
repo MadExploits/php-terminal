@@ -186,7 +186,7 @@ $xpl = explode("-", $exp[2]);
                 <b>&copy; <?= unhex("4d6164205465726d696e616c") ?></b>
                 <ul>
                     <li><a href="https://github.com/MadExploits/"><i class="bi bi-github"></i>&nbsp;Github</a></li>
-                    <li><a href="https://www.exploit-db.com/search?q=Linux%20Kernel%20<?= $xpl[0]; ?>"><i class="bi bi-hdd-stack"></i>&nbsp;Linux Suggester</a></li>
+                    <li><a href="https://www.exploit-db.com/search?q=Linux%20Kernel%20<?= $xpl[0]; ?>"><i class="bi bi-hdd-stack"></i>&nbsp;Linux Exploit Suggester</a></li>
                 </ul>
             </center>
         </div>
