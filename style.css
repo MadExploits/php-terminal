@@ -1,0 +1,63 @@
+        html,
+        body {
+            font-family: monospace;
+        }
+
+        .box {
+            margin: 15px;
+        }
+
+        .body {
+            background-color: #cfccc4;
+        }
+
+        .p {
+            height: 70vh;
+            background-color: #cfccc4;
+        }
+
+        pre {
+            height: 70vh;
+        }
+
+        .form-terminal {
+            width: 85%;
+            height: 30px;
+            border: 2px solid #cfccc4;
+            border-bottom: 2px solid black;
+            background-color: #cfccc4;
+        }
+
+
+        .form-submit {
+            width: 15%;
+            height: 30px;
+            background: none;
+            border: none;
+            color: white;
+        }
+
+        .form-submit:hover {
+            background: transparent !important;
+            color: black;
+            border: 2px solid black;
+        }
+
+        ul {
+            list-style: none;
+            text-align: left;
+        }
+
+        li {
+            display: inline;
+            padding: 0px 5px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li a:hover {
+            color: green;
+        }
